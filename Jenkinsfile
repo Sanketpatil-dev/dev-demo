@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
                     steps {
-                        checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: ]]])
+                        checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: https://github.com/Sanketpatil-dev/dev-demo.git ]]])
                     }
         }
 
