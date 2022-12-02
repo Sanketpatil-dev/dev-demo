@@ -34,5 +34,5 @@ jobs:
       with:
         app-name: Devops-prod-pathways
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7ADF5BC4592944CABA2647A582D9E06C }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B5EB55D39E4B455EACA5DEA2F4D703E8 }}
 
